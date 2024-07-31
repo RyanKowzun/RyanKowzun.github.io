@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css"> 
+    <link rel="icon" type="image" href="icon.ico">
+    <title>Ryan Kowzun</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <p class="text">>_Ryan Kowzun</p>
+        </div>
+
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="./">Home</a>
+            <a href="Projects">Projects</a>
+            <a href="Labs">Labs</a>
+            <a href="Blog">Blog</a>
+            <a href="AboutMe">About Me</a>
+          </div>
+          
+          <!-- Use any element to open the sidenav -->
+          <span onclick="openNav()">
+                <img src="page.png" style="width:5%">         
+          </span> 
+
+          <script>
+            function openNav() {
+              document.getElementById("mySidenav").style.width = "250px";
+            }
+            function closeNav() {
+              document.getElementById("mySidenav").style.width = "0";
+            }
+            </script>
+          <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+          <div id="main">
+        </div>
+    </header>
+
+    <br>
+    <br>
+    <p>Just random projects of things I have made.</p>
+    <div class="center">
+        <a href="https://github.com/RyanKowzun/SimplePasswordGenerator?tab=readme-ov-file">Simple Random Password Generator</a>
+    </div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <div class="license">
+    <a href="https://dbad-license.org/">DBAD License</a>
+    </div>   
+</body>
+</html>

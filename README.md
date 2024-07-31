@@ -1,3 +1,3 @@
 # RyanKowzun.github.io
 
-This is a read me
+Just my personal GitHub Pages to act as a landing spot for my GitHub among other things on it.
